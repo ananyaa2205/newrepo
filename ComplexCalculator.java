@@ -11,6 +11,7 @@ public class ComplexCalculator {
 		System.out.println("enter y of complex number");
 		int y= sc.nextInt();
 		 System.out.println(x+"+"+y+"i");
+             System.out.println(x+"+"+y+"i");
 //		 System.out.println(sc.next());
 //		 System.out.println(sc.next());
 
