@@ -1,4 +1,4 @@
-package Application;
+git package Application;
 import java.util.*;
 
 public class ComplexCalculator {
@@ -11,7 +11,15 @@ public class ComplexCalculator {
 		System.out.println("enter y of complex number");
 		int y= sc.nextInt();
 		 System.out.println(x+"+"+y+"i");
-//		 System.out.println(sc.next());
+
+		 System.out.println("enter another complex number");
+		System.out.println("enter x of complex number");
+        // Scanner sc = new Scanner(System.in);
+		int x1= sc.nextInt();
+		System.out.println("enter y of complex number");
+		int y1= sc.nextInt();
+		 System.out.println(x1+"+"+y1+"i");
+		 System.out.println("the sum is"+x+x1+"+"+y+y1+"i");
 //		 System.out.println(sc.next());
 
 }}
